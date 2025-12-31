@@ -1,0 +1,34 @@
+Sample ISim test log:-
+
+ISim>  restart
+ISim>  run 3000 us
+Simulator is doing circuit initialization process.
+Begin simulation
+Finished circuit initialization process.
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Start bit found
+Success: Receive successful! test_vector = a7, rx_data_tb = a7
+Success: Transmit successful! data_to_send = a7, data_tb = a7
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Start bit found
+Success: Receive successful! test_vector = 82, rx_data_tb = 82
+Success: Transmit successful! data_to_send = 82, data_tb = 82
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Start bit found
+Success: Receive successful! test_vector = 10, rx_data_tb = 10
+Success: Transmit successful! data_to_send = 10, data_tb = 10
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Start bit found
+Success: Receive successful! test_vector = 0f, rx_data_tb = 0f
+Success: Transmit successful! data_to_send = 0f, data_tb = 0f
+End simulation
+Stopped at time : 1984303 ns : File "/home/abhash/Documents/mimasV2/ise_projects/uart_practice/uart_tb.v" Line 223
+ISim>
